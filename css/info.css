@@ -1,0 +1,44 @@
+@import url(./main.css);
+
+body{
+
+    background-image: url(../img/info_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    inset: 0;
+}
+
+.header-wrapper{
+    height: 15vh;
+}
+
+.about{
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 70vw;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 9em;
+    margin-bottom: .3em;
+}
+
+.subtitle{
+    font-size: 1.3em;
+}
+
+.button--title{
+    border: 2px solid var(--green-color);
+    margin-top: 3em;
+    padding: 1.6em 3.5em;
+    right: 13px;
+}
+.button--title:hover{
+    border: 2px solid #203302;
+    background-color: var(--black-green-color);
+}

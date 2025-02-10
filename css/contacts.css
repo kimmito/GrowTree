@@ -1,0 +1,64 @@
+@import url(./info.css);
+
+body{
+    background-image: url(../img/contacts_bg.png);
+}
+
+a{
+    color: var(--white-color);
+}
+
+.section--contacts{
+    max-width: calc(var(--grid-width) + var(--grid-gutter)* 2);
+    min-width: calc(320px + var(--grid-gutter)* 2);
+    display: flex;
+    margin: 3em auto 0 auto;
+    align-content: center;
+
+}
+
+.question{
+    width: 15vw;
+    margin-left: 2em;
+}
+.address{
+    margin-right: 2em ;
+    width: 15vw;
+}
+
+.contacts > *{
+    margin-bottom: 1.5em;
+    letter-spacing: 1.2px;
+}
+
+.contacts h3, .question h3{
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.address{
+    font-size: 1.2em;
+}
+.phone{
+    display: block;
+    font-size: 1.2em;
+}
+
+.map{
+    margin: 0 0em;
+}
+
+#name, #email, #text, .button--send{
+    background-color: rgb(202, 197, 197);
+    font-size: 1.5em;
+    padding: .3em .3em;
+    color: rgb(39, 37, 37);
+    border-radius: .2em;
+    margin-bottom: .5em;
+    width: 300px;
+}
+
+.button--send{
+    width: 170px;
+}
